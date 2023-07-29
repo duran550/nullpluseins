@@ -1,0 +1,113 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "overlap";
+    background-attachment: scroll;
+    // border: 2px solid yellow;
+    position: fixed;
+    width: 100%;
+}
+
+.bgContainer {
+    height: 100vh;
+    background-color: rgb(170, 48, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: overlap;
+    // border: 2px solid violet;
+}
+.bgCircle {
+  height: 500px;
+  width: 500px;
+  background: linear-gradient(rgb(170, 48, 48), rgba(133, 5, 5, 0.74));
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.squares {
+    grid-area: overlap;
+    display: flex;
+    // border: 2px solid yellow; 
+    gap: 150px;
+    margin-top: 225px;
+    .squaresDiv1, .squaresDiv2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0 0 10px;
+        position: relative;
+        .squaresDiv001 {
+            position: absolute;
+            top: 30%;
+        } .squaresDiv002 {
+            position: absolute;
+            top: 60%;
+            left: 25%;
+
+        } .squaresDiv003 {
+            position: absolute;
+            top: 70%;
+            left: 25%;
+
+        } .squaresDiv004 {
+            position: absolute;
+            top: 57%;
+            left: 30%;
+            
+        }  .squaresDiv005 {
+            position: absolute;
+            top: 3%;
+            left: 26%;
+            
+        }  .squaresDiv006 {
+            position: absolute;
+            top: 45%;
+            left: 70%;
+            
+        }  .squaresDiv007  {
+            position: absolute;
+            top: 5%;
+            left: 75%;
+            
+        } .squaresDiv008 {
+            position: absolute;
+            top: 25%;
+            left: 85%;
+            
+        }  .squaresDiv009 {
+            position: absolute;
+            top: 50%;
+            left: 90%;
+            
+        }  .squaresDiv010 {
+            position: absolute;
+            top: 0%;
+            left: 97%;
+            
+        }  .squaresDiv021 {
+            position: absolute;
+            top: 3%;
+            left: 2%;
+            
+        }  .squaresDiv022, .squaresDiv023, .squaresDiv024, .squaresDiv025, .squaresDiv026, .squaresDiv027, .squaresDiv028, .squaresDiv029, .squaresDiv030 {
+
+        }
+
+        div {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .squaresDiv1 {
+        // border: 2px solid yellow;
+        width: 50%;
+        // justify-items: end;
+    }
+
+    .squaresDiv2 {
+        border: 2px solid grey;
+        width: 50%;
+    }
+}
