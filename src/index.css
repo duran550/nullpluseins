@@ -5,8 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: lightgray;
+  background:#E63314;
 }
+@media(min-width:1700px) {
+  body {
+    display: grid;
+    place-items: center;
+  }
+} 
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

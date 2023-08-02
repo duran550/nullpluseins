@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "name":"Sehen",
+        "title":"Schauspeil Dortmund/Institut",
+        "date": "Di. 5. Okt 2023 19 Uhr",
+        "des":"Was bedeutet es, im kuba des 21. Jahrhunderts Feministin zu sein?",
+        "img":"./pic1.png"
+    },
+    {
+        "id":2,
+        "name":"Begegnung",
+        "title":"BierCafe West, Veransllungssal",
+        "date": "Di. 5. Okt 2023 19 Uhr",
+        "des":"Demokrateikunstwerk des Bildungswerk vielfalt im Dortmunder U and Expert*innentalk zu der frange: Welche ZukunftsFrangen brauchen wir?",
+        "img":"./pic2.png"
+    },
+    {
+        "id":3,
+        "name":"Sehen",
+        "title":"Schauspeil Dortmund/Institut",
+        "date": "Di. 5. Okt 2023 19 Uhr",
+        "des":"Was ist Mannlichkeit heute? Ein Gesprach mit Malcom Ohanwem Mudjacka Mvunuku and LukaTimm",
+        "img":"./pic3.png"
+    },
+    {
+        "id":4,
+        "name":"Sehen",
+        "title":"Schauspeil Dortmund/Institut",
+        "date": "Di. 5. Okt 2023 19 Uhr",
+        "des":"Was bedeutet es, im kuba des 21. Jahrhunderts Feministin zu sein?",
+        "img":"./pic1.png"
+    },
+    {
+        "id":5,
+        "name":"Sehen",
+        "title":"Schauspeil Dortmund/Institut",
+        "date": "Di. 5. Okt 2023 19 Uhr",
+        "des":"Demokrateikunstwerk des Bildungswerk vielfalt im Dortmunder U and Expert*innentalk zu der frange: Welche ZukunftsFrangen brauchen wir?",
+        "img":"./pic2.png"
+    },
+    {
+        "id":4,
+        "name":"Sehen",
+        "title":"Schauspeil Dortmund/Institut",
+        "date": "Di. 5. Okt 2023 19 Uhr",
+        "des":"Was ist Mannlichkeit heute? Ein Gesprach mit Malcom Ohanwem Mudjacka Mvunuku and LukaTimm",
+        "img":"./pic3.png"
+    }
+]
