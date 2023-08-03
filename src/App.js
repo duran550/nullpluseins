@@ -1,33 +1,26 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import classes from "../src/pages/Program/Program.module.scss";
-import "./App.scss";
-import FirstOverlay from "./components/overlay/overlay01";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import Program from "./pages/Program/Program";
+import Program from "../src/pages/Program/Program";
+import classes from "./App.module.scss";
+import FirstOverlay from "../src/components/overlay/overlay01";
+import Header from "../src/components/Header/Header";
+import Footer from "../src/components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <>
-        <div className="container">
-          <div className="overlays">
-            <FirstOverlay />
-            <div className="Content">
-              <Header />
-              <div className="Links">
-                <Routes>
-                  <Route path="/" element={<Home />} />
-                  <Route path="/program" element={<Program />} />
-                </Routes>
-              </div>
-              <Footer />
-            </div>
-          </div>
+      <div className={classes.App}>
+        <div className={classes.FirstOverlay}>
+          <FirstOverlay />
         </div>
-      </>
-    </div>
+        <div className={classes.SecondOverlay}>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/program" element={<Program />} />
+          </Routes>
+          <Footer />
+        </div>
+      </div>
   );
 }
 

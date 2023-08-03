@@ -1,13 +1,17 @@
 .HomeContent {
-  // border: 2px solid blue;
-  position: fixed;
+  // border: 3px solid yellow;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   h4 {
-    color: white;
-  //   width: 100vw;
-    font-size: 50px;
+    position: fixed;
+    font-size: 40px;
+    color: #F0B4CFEF;
     font-family: "Arvo", serif;
-    color: #ecccdaef;
-    // border: 2px solid yellow;
-    margin: 0;
+    @media(max-width:700px) {
+      font-size: 30px;
+    }
   }
 }

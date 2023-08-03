@@ -1,8 +1,6 @@
 .pageContent {
-  // margin-top: 90px;
-  border: 2px solid black;
-  height: 100vh;
-  width: 100vw;
+//   border: 2px solid black;
+  margin-bottom: 140px;
   @media (min-width: 1700px) {
     // margin: 0px;
   }
@@ -23,10 +21,11 @@
   .contentContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0 300px;
-    // margin-top: 1010px;
-    border: 2px solid yellow;
-    height: 100vh;
+//     padding: 0 300px;
+    margin-top: 90px;
+//     border: 2px solid blue;
+    gap: 90px 0;
+//     height: 100vh;
     // margin-bottom: 120px;
     @media (min-width: 1700px) {
       width: 1350px;
@@ -48,7 +47,15 @@
       padding: 0;
     }
     .contentCentered {
-      margin-bottom: 50px;
+      // margin-bottom: 50px;
+//       border: 2px solid green;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+//       justify-content: center;
+      align-items: center;
+      color: #F0B4CFEF;
+//       gap: 30px 0;
       @media (max-width: 1300px) {
         width: 80%;
       }
@@ -66,6 +73,7 @@
         margin: 0 auto;
         display: flex;
         justify-content: flex-start;
+        // border: 2px solid yellow;
         @media (max-width: 1300px) {
           // width: 200px;
           width: 250px;
@@ -83,7 +91,7 @@
           word-spacing: 5px;
           font-weight: 400;
           margin-bottom: 5px;
-          font-size: 12px;
+          font-size: 13px;
           @media (max-width: 700px) {
             font-size: 8px;
             font-weight: 600;
@@ -94,7 +102,7 @@
         margin-bottom: 10px;
         i h5 {
           font-weight: 200;
-          font-size: 11px;
+          font-size: 12px;
           word-spacing: 5px;
           font-weight: 400;
         }
@@ -112,7 +120,7 @@
       .contentDiv03 {
         // border: 2px solid yellow;
         width: 400px;
-        margin: 0 auto;
+        // margin: 0 auto;
         @media (max-width: 1300px) {
           width: 250px;
         }
@@ -121,7 +129,7 @@
         }
         h5 {
           // border: 2px solid pink;
-          font-size: 12px;
+          font-size: 14px;
           color: #f0b4cfef;
           text-align: start;
           margin: 0;
