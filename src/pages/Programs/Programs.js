@@ -1,8 +1,8 @@
 import React from "react";
-import classes from "./Program.module.scss";
+import classes from "./Programs.module.scss";
 import data from "../../components/json/data.json";
 
-function Program() {
+function Programs() {
   const contents = data;
 
   return (
@@ -36,4 +36,4 @@ function Program() {
   );
 }
 
-export default Program;
+export default Programs;

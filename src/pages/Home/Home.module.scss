@@ -1,12 +1,18 @@
 .HomeContent {
-  // border: 3px solid yellow;
+  // border: 2px solid yellow;
+  // margin-top: 200px;
   height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
+  margin: 0 auto;
+  max-width: 1500px;
+  max-height: 1500px;
+  //   z-index: -1;
   h4 {
-    position: fixed;
+    // position: fixed;
     font-size: 40px;
     color: #F0B4CFEF;
     font-family: "Arvo", serif;

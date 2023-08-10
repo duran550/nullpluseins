@@ -1,26 +1,35 @@
-import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import Program from "../src/pages/Program/Program";
+import Programs from "../src/pages/Programs/Programs";
 import classes from "./App.module.scss";
 import FirstOverlay from "../src/components/overlay/overlay01";
-import Header from "../src/components/Header/Header";
+import RootLayout from "./pages/Root";
 import Footer from "../src/components/Footer/Footer";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import ProgramDetail from "./components/ProgramDetail/ProgramDetail";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: "programs", element: <Programs /> },
+      { path: "Programs/:ProgramId", element: <ProgramDetail /> },
+    ],
+  },
+]);
 
 function App() {
   return (
-      <div className={classes.App}>
-        <div className={classes.FirstOverlay}>
-          <FirstOverlay />
-        </div>
-        <div className={classes.SecondOverlay}>
-          <Header />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/program" element={<Program />} />
-          </Routes>
-          <Footer />
-        </div>
+    <div className={classes.App}>
+      <div className={classes.FirstOverlay}>
+        <FirstOverlay />
       </div>
+      <div className={classes.SecondOverlay}>
+        <RouterProvider router={router} />
+        <Footer />
+      </div>
+    </div>
   );
 }
 

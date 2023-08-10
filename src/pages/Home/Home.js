@@ -1,10 +1,11 @@
 import React from "react";
 import classes from "./Home.module.scss";
+import ResponsiveCarousel1 from "../../Carousel/Responsive-carousel/ResCarousel1/ResCarousel";
 
 function Home() {
   return (
     <div className={classes.HomeContent}> 
-      <h4>6. bis 28. Oktober 2013</h4>
+      <ResponsiveCarousel1 />
     </div>
   );
 }

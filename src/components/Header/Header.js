@@ -1,42 +1,100 @@
-import React, {useState} from "react";
+import React from "react";
 import classes from "./Header.module.scss";
-import {Link} from "react-router-dom";
-
+import { NavLink } from "react-router-dom";
+import { useGlobalContext } from "../../useContext/useContext";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { FaTimes } from "react-icons/fa";
 
 function Header() {
-    const [show, setShow] = useState(false);
-
-  const toggleLogo = () => {
-    setShow(!show);
-  };
+  const { show, toggleLogo, handleShowNavbar, showNavbar, setShowNavbar } =
+    useGlobalContext();
 
   return (
     <div className={classes.header}>
-      <Link to="/" style={{ textDecoration: 'none' }}>
-        <div className={classes.headerLogo} onClick={toggleLogo}>
-          <span>
-            <div className={classes.logo}>
-              <span className={classes.logoCircle}></span>
-              <i>
-                <span className={classes.logoPlus}>+</span> 1
-              </i>
-            </div>
-            {show && (
-              <div className={classes.txt}>
-                <span className={classes.txt01}>Festival fur</span>
-                <span className={classes.txt02}>Diversitat + </span>
-                <span className={classes.txt03}>Komplexitat</span>
+      <div className={classes.header_content}>
+        <NavLink to="/" style={{ textDecoration: "none" }} onClick={toggleLogo}>
+          <div className={classes.headerLogo}>
+            <span>
+              <div className={classes.logo}>
+                <span className={classes.logoCircle}></span>
+                <i>
+                  <span className={classes.logoPlus}>+</span> 1
+                </i>
               </div>
-            )}
-          </span>
+              {show && (
+                <div className={classes.txt}>
+                  <span className={classes.txt01}>Festival fur</span>
+                  <span className={classes.txt02}>Diversitat + </span>
+                  <span className={classes.txt03}>Komplexitat</span>
+                </div>
+              )}
+            </span>
+          </div>
+        </NavLink>
+        <div className={classes.menu_icon} onClick={handleShowNavbar}>
+          {showNavbar ? <FaTimes /> : <GiHamburgerMenu />}
         </div>
-      </Link>
-      <div className={classes.headerLinks}>
-        <Link to="/program" style={{ textDecoration: 'none' }}><h3>Programm</h3></Link>
-        <h3>Expert*innen</h3>
-        <h3>Info</h3>
-        <h3>Kontakt</h3>
-        <h3>Archiv</h3>
+        <div
+          className={`${classes.headerLinks} ${showNavbar && classes.active}`}
+        >
+          <ul className={classes.list}>
+            <li>
+              <NavLink
+                to="/programs"
+                style={{listStyleType:"none"}}
+                className={({ isActive }) => (isActive ? classes.active : "")}
+                end
+                onClick={() => setShowNavbar(false)}
+              >
+                Program
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/Expert*innen"
+                // className={classes.header_Links}
+                className={({ isActive }) => (isActive ? classes.active : "")}
+                end
+                onClick={() => setShowNavbar(false)}
+              >
+                Expert*innen
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/Info"
+                // className={classes.header_Links}
+                className={({ isActive }) => (isActive ? classes.active : "")}
+                end
+                onClick={() => setShowNavbar(false)}
+              >
+                Info
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/Kontakt"
+                // className={classes.header_Links}
+                className={({ isActive }) => (isActive ? classes.active : "")}
+                end
+                onClick={() => setShowNavbar(false)}
+              >
+                Kontakt
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/Archiv"
+                // className={classes.header_Links}
+                className={({ isActive }) => (isActive ? classes.active : "")}
+                end
+                onClick={() => setShowNavbar(false)}
+              >
+                Archiv
+              </NavLink>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
