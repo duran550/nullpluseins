@@ -2,10 +2,10 @@
   width: 100%;
   margin: 0 auto;
   position: fixed;
+  // border: 2px solid yellow;
   max-width: 1500px;
   .header_content {
     // border: 3px solid yellow;
-    position: fixed;
     background: #e63314;
     position: relative;
     width: 100%;
@@ -16,6 +16,7 @@
     gap: 50%;
     max-width: 1700px;
     color: #f0b4cfef;
+    
     @media (max-width: 1300px) {
       gap: 0;
       height: 100px;
@@ -75,6 +76,7 @@
           background: #f0b4cfef;
           border-radius: 50%;
           rotate: 20deg;
+          
           @media (max-width: 1200px) {
             width: 22px;
             height: 37px;
@@ -90,6 +92,7 @@
           display: flex;
           align-items: center;
           color: #f0b4cfef;
+          
           @media (max-width: 1200px) {
             font-size: 40px;
           }
@@ -100,6 +103,7 @@
           .logoPlus {
             font-size: 40px;
             font-weight: 400;
+            
             //   color: #f0b4cfef;
             @media (max-width: 1200px) {
               // font-size: 35px;
@@ -115,6 +119,7 @@
         flex-direction: column;
         margin-bottom: 5px;
         color: #f0b4cfef;
+        
         // border: 2px solid yellow;
         .txt01,
         .txt02 {
@@ -145,6 +150,7 @@
       li {
         position: relative;
         padding-bottom: 3px;
+        
         &:after {
           content: "";
           display: block;
@@ -166,6 +172,7 @@
       font-size: 18px;
       text-decoration: none;
       font-weight: 600;
+      
     }
 
     .list a.active {
@@ -180,6 +187,7 @@
     @media (max-width: 700px) {
       h3 {
         font-size: 12px;
+        
       }
     }
   }

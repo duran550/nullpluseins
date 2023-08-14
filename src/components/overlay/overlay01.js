@@ -23,7 +23,7 @@ function FirstOverlay() {
         <div className={classes.squaresDiv2}>
           <div className={classes.squaresDiv021} style={{ backgroundColor: "#FF00FF" }}></div>
           <div className={classes.squaresDiv022} style={{ backgroundColor: "#FF00FF" }}></div>
-          <div className={classes.squaresDiv023} style={{ backgroundColor: "#2D5BE3" }}></div>
+          <div className={classes.squaresDiv023} style={{ backgroundColor: "#2DA785" }}></div>
           <div className={classes.squaresDiv024} style={{ backgroundColor: "#007FFF" }}></div>
           <div className={classes.squaresDiv025} style={{ backgroundColor: "#FF00FF" }}></div>
           <div className={classes.squaresDiv026} style={{ backgroundColor: "#FF00FF" }}></div>

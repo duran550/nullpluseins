@@ -1,0 +1,127 @@
+.program {
+  margin-top: 140px;
+  padding: 30px 0 0px 150px;
+  color: #f0b4cfef;
+  font-family: "Arvo", serif;
+  display: grid;
+  gap: 20px;
+  @media (max-width: 1000px) {
+    padding: 0 auto;
+  }
+  @media (max-width: 500px) {
+    padding: 0px 20px;
+    margin-bottom: 50px;
+  }
+  .programD_Caption h2 {
+    margin: 0;
+    text-shadow: 1px 1px 2px #000000;
+  }
+  .programD_Caption {
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    width: 70%;
+    @media (max-width: 500px) {
+        width: 100%;
+    }
+  }
+
+  .cat_day_date_place h5,
+  .cat_day_date_place h4 {
+    font-weight: lighter;
+    margin: 0;
+    font-size: 17px;
+    text-shadow: 1px 1px 2px #000000;
+    // text-transform: capitalize;
+  }
+
+  .cat_day_date_place h5 {
+    padding-top: 10px;
+    word-spacing: 5px;
+    text-shadow: 1px 1px 2px #000000;
+  }
+
+  .cat_day_date_place h5 a {
+    text-decoration: none;
+    color: #f0b4cfef;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .programD_img_Descripttion {
+    display: grid;
+    gap: 20px;
+    img {
+      width: 700px;
+      @media (max-width: 1000px) {
+        width: 500px;
+      }
+      @media (max-width: 500px) {
+        width: 350px;
+      }
+    }
+    h2 {
+      width: 80%;
+      font-weight: lighter;
+      word-spacing: 10px;
+      line-height: 36px;
+      font-size: 20px;
+      text-shadow: 1px 1px 2px #000000;
+      @media (max-width: 500px) {
+        width: 100%;
+      }
+    }
+  }
+  .programD_adress_btn {
+    display: grid;
+    gap: 40px;
+    button {
+      padding: 7px 20px;
+      font-size: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 22%;
+      color: #fff;
+      text-decoration: none;
+      background: #ec8923;
+      border: none;
+      @media (max-width: 500px) {
+        width: 40%;
+      }
+      &:active {
+        // background: #f59a3f;
+        box-shadow: 2px 2px 5px #fc894d;
+      }
+    }
+    .programD_adress {
+      display: grid;
+      gap: 5px;
+      h3,
+      h2 {
+        margin: 0px;
+        text-shadow: 1px 1px 2px #000000;
+      }
+    }
+    h3 {
+      width: 250px;
+      font-weight: lighter;
+      text-shadow: 1px 1px 2px #000000;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #f0b4cfef;
+    cursor: pointer;
+    width: 100px;
+    margin: 0;
+    h2 {
+      margin: 0px;
+      text-shadow: 1px 1px 2px #000000;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+    &:active {
+      color: #e970a7ef;
+    }
+  }
+}

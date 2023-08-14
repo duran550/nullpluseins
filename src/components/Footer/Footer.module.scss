@@ -8,6 +8,9 @@
     display: flex;
     justify-content: space-around;
     width: 25%;
+    @media(max-width:1000px) {
+      width: 50%;
+    }
     @media(max-width:700px) {
       width: 70%;
     }
@@ -15,6 +18,7 @@
     h4 {
       color: #F0B4CFEF;
       margin: 0;
+      text-shadow: 1px 1px 2px #000000;
       @media(max-width:700px) {
         font-size: 14px;
       }

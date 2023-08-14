@@ -40,7 +40,7 @@ function Header() {
           <ul className={classes.list}>
             <li>
               <NavLink
-                to="/programs"
+                to="programs"
                 style={{listStyleType:"none"}}
                 className={({ isActive }) => (isActive ? classes.active : "")}
                 end
