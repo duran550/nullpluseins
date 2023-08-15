@@ -1,10 +1,12 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 import classes from "./Programs.module.scss";
 import products from "../../components/json/data";
 import { Link } from "react-router-dom";
 
 function Programs() {
   const programs = products;
+  const params = useParams();
 
   return (
     <div className={classes.pagecontent}>
@@ -12,6 +14,7 @@ function Programs() {
         {programs.map((program) => (
           <div key={program.id} className={classes.program}>
             <Link to={`/programs/${program.id}`}>
+            {/* <Link to={`programs/${params.programId}`}> */}
               <div className={classes.program_content}>
                 <div className={classes.program_date_time}>
                   <h3>{program.date}</h3>

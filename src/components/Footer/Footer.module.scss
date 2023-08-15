@@ -4,6 +4,8 @@
   display: flex;
   margin: 0 auto;
   max-width: 1500px;
+  margin-top: 1vh;
+  z-index: -2;
   .footer_txt {
     display: flex;
     justify-content: space-around;
