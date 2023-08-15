@@ -1,0 +1,77 @@
+.container {
+    margin: 230px 0px 150px;
+    @media(max-width:500px) {
+        margin: 200px 0px 100px;
+    }
+    .partners {
+        // border: 2px solid yellow;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px;
+        padding: 0 90px;
+        font-family: "Arvo", serif;
+        @media(max-width:1000px) {
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            padding: 0 50px;
+        }
+        @media(max-width:500px) {
+            grid-template-columns: 1fr;
+            padding: 0 40px;
+            gap: 30px;
+            // border: 2px solid yellow;
+        }
+        a {
+            text-decoration: none;
+            color: #f0b4cfef;
+            text-shadow: 1px 1px 2px #000000;
+            &:hover .allPartners .image_name h3 {
+                text-decoration: underline;
+            }
+        }
+        .allPartners:hover .partners_scale {
+            transform: scale(1.15);
+        }
+        .allPartners {
+            // overflow: hidden;
+            .partners_scale {
+                transform: scale(1);
+                transition: all 0.5s;
+            }
+            // border: 2px solid violet;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .image_name {
+            display: grid;
+            gap: 15px;
+            margin-bottom: 15px;
+            img {
+                width: 95%;
+                border-radius: 50%;
+            }
+            h3 {
+                margin: 0;
+                font-weight: lighter;
+                font-size: 25px;
+                @media(max-width:500px) {
+                    font-size: 18px;
+                }
+            }
+        }
+        .txt {
+            display: grid;
+            gap: 5px;
+            h4 {
+                margin: 0;
+                font-weight: lighter;
+                font-size: 18px;
+                word-spacing: 5px;
+                letter-spacing: .5px;
+                @media(max-width:500px) {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

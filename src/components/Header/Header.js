@@ -51,10 +51,8 @@ function Header() {
             </li>
             <li>
               <NavLink
-                to="/Expert*innen"
-                // className={classes.header_Links}
+                to="experts"
                 className={({ isActive }) => (isActive ? classes.active : "")}
-                end
                 onClick={() => setShowNavbar(false)}
               >
                 Expert*innen

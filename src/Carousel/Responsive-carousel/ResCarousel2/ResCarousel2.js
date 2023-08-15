@@ -23,6 +23,7 @@ export default function ResponsiveCarousel2({ slider }) {
           interval={10000}
           className="mySwiper"
           style={{ zIndex: "-1" }}
+          swipeable={false}
         >
           {slider.map((item) => (
             <Link to={`programs/${item.id}`}>
