@@ -71,7 +71,7 @@ function Header() {
             </li>
             <li>
               <NavLink
-                to="/Kontakt"
+                to="contact"
                 // className={classes.header_Links}
                 className={({ isActive }) => (isActive ? classes.active : "")}
                 end

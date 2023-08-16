@@ -7,6 +7,7 @@ import Footer from "../src/components/Footer/Footer";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import ProgramDetail from "./components/ProgramDetail/ProgramDetail";
 import Expert from "./pages/expert/expert";
+import Contact from "./pages/contact/Contact";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,7 @@ const router = createBrowserRouter([
         ],
       },
       { path: "experts", element: <Expert /> },
+      { path: "contact", element: <Contact /> },
     ],
   },
 ]);

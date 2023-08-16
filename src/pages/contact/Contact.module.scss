@@ -1,0 +1,144 @@
+.container {
+    // border: 2px solid green;
+    margin: 200px 0 150px;
+    padding: 0 300px;
+    color: #f0b4cfef;
+    text-shadow: 1px 1px 2px #000000;
+    @media(max-width: 1000px) {
+        padding: 0 100px;
+    }
+
+    @media(max-width: 500px) {
+        padding: 0 30px;
+        margin: 150px 0 150px;
+    }
+    .forms_div {
+        // border: 2px solid yellow;
+        margin-bottom: 100px;
+        form {
+            display: flex;
+            flex-direction: column;
+            h2 {
+                margin: 0 0 30px;
+                @media(max-width:500px) {
+                    font-size: 18px;
+                }
+            }
+            label {
+                display: grid;
+                gap: 5px;
+                color: #f0b4cfef;
+                span {
+                    @media(max-width:500px) {
+                        font-size: 15px;
+                    }
+                }
+                input, textarea {
+                    margin-bottom: 30px;
+                    height: 50px;
+                    border-radius: 5px;
+                      color:#f0b4cfef;
+                      font-size: 18px;
+                      border: 2px solid #f0b4cfef; 
+                      outline: 2px solid #f0b4cfef;
+                      padding:0 10px;
+                      outline: none;
+                      font-weight: lighter;
+                      text-shadow: 1px 1px 2px #000000;
+                      background: transparent;
+                      transition: all .2s ease-in;
+                      @media(max-width:500px) {
+                        font-size: 16px;
+                    }
+                    &:focus {
+                      padding:0 10px; 
+                      border: 2.5px solid #f0b4cfef; 
+                      outline: 2.5px solid #f0b4cfef;
+                      color:#f0b4cfef;
+                      text-shadow: 1px 1px 2px #000000;
+                      font-size: 20px;
+                      font-weight: lighter;
+                      height: 53px;
+                      transition: all .2s ease-out;
+                      @media(max-width:500px) {
+                        font-size: 18px;
+                    }
+                    }
+                }
+                textarea {
+                    height: 130px;
+                    transition: all .2s ease-in;
+                    &:focus {
+                        padding-top: 7px;
+                        transition: all .2s ease-out;
+                        height: 130px;
+                    }
+                }      
+            }
+            .checkbox_label {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                padding: 10px 0;
+                margin: 10px 0 20px;
+                h4 {
+                    margin: 0;
+                    font-weight: lighter;
+                }
+            }
+
+            .form_btn {
+                display: flex;
+                justify-content: flex-end;
+                button {
+                    width: 100px;
+                    font-size: 18px;
+                    border-radius: 5px;
+                    background-color: rgb(238, 165, 91);
+                    border: none;
+                    padding: 10px 0;
+                    color: #fff;
+                    cursor: pointer;
+                    @media(max-width:500px) {
+                        font-size: 16px;
+                        padding: 7px 0;
+                    }
+                    &:active {
+                        background-color:rgb(238, 149, 61);
+                    }
+                }
+            }
+        }
+    }
+    .logo_txt {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        img {
+            width: 50px;
+        }
+        .txt {
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            .txt_header {
+                h3 {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin: 0;
+                    margin-bottom: 10px;
+                    @media(max-width:500px) {
+                        font-size: 16px;
+                    }
+                }
+            }
+            h4 {
+                font-weight: lighter;
+                margin: 0;
+                @media(max-width:500px) {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

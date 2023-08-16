@@ -1,5 +1,5 @@
 .container {
-    margin: 230px 0px 150px;
+    margin: 200px 0px 150px;
     @media(max-width:500px) {
         margin: 200px 0px 100px;
     }
@@ -7,8 +7,8 @@
         // border: 2px solid yellow;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 40px;
-        padding: 0 90px;
+        gap: 50px;
+        padding: 0 100px;
         font-family: "Arvo", serif;
         @media(max-width:1000px) {
             grid-template-columns: 1fr 1fr;
@@ -47,7 +47,7 @@
             gap: 15px;
             margin-bottom: 15px;
             img {
-                width: 95%;
+                width: 90%;
                 border-radius: 50%;
             }
             h3 {

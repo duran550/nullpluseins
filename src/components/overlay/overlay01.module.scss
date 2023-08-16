@@ -19,10 +19,6 @@
   align-items: center;
   justify-content: center;
   grid-area: overlap;
-  @media (min-width: 1700px) {
-    height: 1700px;
-    // Tablet width okay for violet
-  }
 
 }
 .bgCircle {
@@ -39,6 +35,11 @@
     height: 300px;
     width: 300px;
     margin-top: 0;
+  }
+  @media (min-width: 1400px) {
+    // border: 2px solid yellow;
+    height: 600px;
+    width: 600px;
   }
 }
 

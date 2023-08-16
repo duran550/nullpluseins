@@ -1,12 +1,12 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 import classes from "./Programs.module.scss";
 import products from "../../components/json/data";
 import { Link } from "react-router-dom";
 
 function Programs() {
   const programs = products;
-  const params = useParams();
+  // const params = useParams();
 
   return (
     <div className={classes.pagecontent}>
