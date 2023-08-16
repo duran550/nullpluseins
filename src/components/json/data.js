@@ -121,6 +121,59 @@ const Programs = [
     }   
 ];
 
+export const images = [
+    {
+        id: 1, 
+        img: "./Logos_Veranstaltergemeinschaft/Vkii/vkii_logo_neu.jpg", 
+    }, 
+    {
+        id: 2, 
+        img: "./Logos_Veranstaltergemeinschaft/TrainofHope/ToH_Logo_Ohne_Hintergrund.png", 
+    }, 
+    {
+        id: 3, 
+        img: "./Logos_Veranstaltergemeinschaft/RomanoThan/RomanoThan.png", 
+    }, 
+    {
+        id: 4, 
+        img: "./Logos_Veranstaltergemeinschaft/BWV/Logo.Bildung.Blau.Orange.png", 
+    }, 
+]
+
+export const Festivalteam = [
+    {
+        id: 1, 
+        title: "Kuratorium", 
+        text: ["Hassan Adzaj", "Funda Aksoy", "Matel Ba", "Armel Djiné", "Fatma Karacakurtoglu", "Antje Krah", "Gisela Reppel", "Kati Stüdemann"]
+    }, 
+    {
+        id: 2, 
+        title: "Festivaltitel", 
+        text: ["Fatima Khan"]
+    }, 
+    {
+        id: 3, 
+        title: "Organisation", 
+        text: ["Armel Djiné", "Antje Krah", "Kati Stüdemann" ]
+    }, 
+    {
+        id: 4, 
+        title: "Grafik", 
+        text: ["Yuxing Li"]
+    }, 
+    {
+        id: 5, 
+        title: "Web Development", 
+        text: ["Kaeyros Analytics GmbH"]
+    }, 
+    {
+        id: 6, 
+        title: "Foto & Film", 
+        text: ["Mickaelle Ayossa", "Cedric Ngonthe", "Cyril Sonde", "Bleriot Wafo" ]
+    }, 
+]
+
+
 export const slised = [Programs.slice(7, 10), Programs.slice(3, 7), Programs.slice(0, 3)]
 
 export default Programs;

@@ -1,178 +1,178 @@
 const partners = [
     {
-        id:1,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
-        img:"./partners/tina.jpg",
-        picture:"photo: private",
-        link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+            id:1,
+            des:"freie Journalistin, neue deutsche Medienmacherin, Bildungsreferentin mit Schwerpunkt Nord-Süd-Beziehungen & Nachhaltigkeitsthemen",
+            img:"./partners/tina.jpg",
+            picture:"Böblingen",
+            link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
+            name:"Tina Adomako"
     },
     {
         id:2,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Mitgründerin und erste Präsidentin der African Studies Association of Africa, Gründerin Centre for Gender Studies & Professorin für African Studies an der Univ. of Ghana, derzeit Gastprofessorin an der Uni Kassel",
         img:"./partners/glen.jpg",
-        picture:"photo: private",
-        link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        picture:"privat",
+        link:"https://adomakoampofo.com/",
+        name:"Prof. Akosua Adomako Ampofo"
     },
     {
         id:3,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Lehrerin , päd. Mitarbeiterin des Bildugnswerk Vielfalt",
         img:"./partners/rebal.jpg",
-        picture:"photo: private",
+        picture:"privat",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Funda Aksoy"
     },
     {
         id:4,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Autor, schreibt über Männlichkeit(en), Rollenbilder, Orientalismus und Antifeminismus",
         img:"./partners/kudu.jpg",
         picture:"photo: private",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Fikri Anıl Altıntaş "
     },
     {
         id:5,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Afrikawissenschaftler*in, Autor*in und Trainer*in für intersektionale rassismuskritische Bildungsarbeit",
         img:"./partners/saziye.jpg",
         picture:"photo: private",
-        link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        link:"http://josephine.apraku/",
+        name:"Josephine Apraku"
 
     },
     {
         id:6,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Autorin, Vertreterin der neuesten digitalen Literaturen ",
         img:"./partners/fatma.jpg",
-        picture:"photo: private",
+        picture:"Elisa Aseva",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Elisa Aseva"
 
     },
     {
         id:7,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Ingenieurin für Medizintechnik, Modell, Macherin der Living Library, Dozentin des BWV, engagiert sich im VKII e. V. & Africa 2030 e. V",
         img:"./partners/michaela.jpg",
-        picture:"photo: private",
+        picture:"Boris Siyam",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Mickaelle Ayossa"
 
     },
     {
         id:8,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Kommunikationsmanagerin, ist im Event- und Kulturbereich tätig, seit 3 Jahren Vereinsarbeit von BPoC- und afrodiasporischen Communities, arbeitet beim VKII e. V. ",
         img:"./partners/elezabeth.jpg",
-        picture:"photo: private",
+        picture:"privat",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Matel Ba"
 
     },
     {
         id:9,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Ökonomin und Aktivistin. Aktuell arbeitet sie schwerpunktmäßig zur Verbindung von »Race und Class« im deutschen Kontext.",
         img:"./partners/babeth.jpg",
-        picture:"photo: private",
-        link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        picture:"Priscillia Grubo",
+        link:"https://www.betielberhe.de/",
+        name:"Betiel Berhe"
 
     },
     {
         id:10,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Verlägerinnen Nalingi Kinderbuchverlag, Autorinnen, Mütter ",
         img:"./partners/caxxianne.jpg",
-        picture:"photo: private",
+        picture:"privat",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Justine Canga und Joceline Altevogt"
 
     },
     {
         id:11,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Marketing Managerin & Iran-Expertin, Mitinitiatorinnen des politischen Patenschaftsprogramms für politische Gefangene im Iran. Nach der Inhaftierung ihrer Mutter und  dt. Staatsbürgerin Nahid Taghavi durch die Islamische Republik Iran, gründete sie die #FreeNahid-Kampagne.",
         img:"./partners/jeff.jpg",
-        picture:"photo: private",
+        picture:"Stéphane_Lelarge",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Mariam Claren"
 
     },
     {
         id:12,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Feministin , Mitglied im Geschäftsführungsteam des Eine Welt Netz NRW",
         img:"./partners/daniele.jpg",
-        picture:"photo: private",
+        picture:"privat",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Monika Dügle"
 
     },
     {
         id:13,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Autorin, Essayistin und Literaturwissenschaftlerin",
         img:"./partners/michaela.jpg",
-        picture:"photo: private",
+        picture:"Christina Raytsiz",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Berit Glanz"
 
     },
     {
         id:14,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Theatermacher, Lyriker, Herausgeber und Verleger",
         img:"./partners/roberto.jpg",
         picture:"photo: private",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Dincer Guecyeter"
 
     },
     {
         id:15,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"französischer Keyboarder und Produzent. Er spielt mit Derya Yıldırım in der internat. Band „Grup Şimşek“.",
         img:"./partners/henry.jpg",
         picture:"photo: private",
-        link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        link:"https://deryayildirimgrahammushnik.bandcamp.com/album/hey-dostum-ak",
+        name:"Graham Mushink"
 
     },
     {
         id:16,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Infomationswissenschaftler, Fotograf, freier Mitarbeiter im Medienprojekt Wuppertal",
         img:"./partners/linda.jpg",
-        picture:"photo: private",
+        picture:"private",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Mudjacka Mvunuku"
 
     },
     {
         id:17,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Maschinenbauer, Fotograf, Macher der Living Library, Dozentin des BWV, engagiert sich im VKII e. V.",
         img:"./partners/babeth.jpg",
-        picture:"photo: private",
+        picture:"privat",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Boris Siyam"
 
     },
     {
         id:18,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Psychologin, Autorin, Publizistin und ukrainisch-deutsche Politikerin ",
         img:"./partners/denis.jpg",
-        picture:"photo: private",
-        link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        picture:"Tibor Bozi",
+        link:"https://marinaweisband.de/",
+        name:"Marina Weisband"
 
     },
     {
         id:19,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Referent*in für Interkulturelle Veranstaltungen & zivilgesellschaftliches Egagement E-Sport, Gaming- und Digitalekultur bei der Stadt Dortmund und Autor*in",
         img:"./partners/marlen.jpg",
-        picture:"photo: private",
+        picture:"Boris Siyam",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Roxanna-Lorraine Witt"
 
     },
     {
         id:20,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Sängerin, Bağlama-Virtuosin, Underground-Star, Botschafterin des musikalischen Erbes in derTürkei",
         img:"./partners/kalmaz.jpg",
-        picture:"photo: private",
+        picture:"Katja Ruge",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Derya Yıldırım"
 
     },
     {
@@ -186,47 +186,47 @@ const partners = [
     },
     {
         id:22,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Autorin, Künstlerin, Kuratorin, Moderatiorin",
         img:"./partners/fatima2.jpg",
-        picture:"photo: private",
+        picture:"private",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Fatima Khan"
 
     },
     {
         id:23,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Literatur- und Kulturwissenschaftlerin, Direktorin Fritz-Hüser-Institut für Literatur und Kultur der Arbeitswelt",
         img:"./partners/jeff.jpg",
-        picture:"photo: private",
+        picture:"Roland Gorecki",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Dr. Iuditha Balint"
 
     },
     {
         id:24,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Maschinenbauer, Fotograf, Macher der Living Library, Dozentin des BWV, engagiert sich im VKII e. V.",
         img:"./partners/denis.jpg",
-        picture:"photo: private",
+        picture:"privat",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Boris Siyam"
 
     },
     {
         id:25,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Schriftsteller, Kolumnist, Reporter und Literaturkritiker ",
         img:"./partners/mwanza.jpg",
         picture:"photo: private",
-        link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        link:"http://martinbecker.com/",
+        name:"Martin Becker"
 
     },
     {
         id:26,
-        des:"Freelance journalist, new German media maker, education consultant with a focus on North-south relations and sustainability issues.",
+        des:"Grafikdesignstudentin, Macherin der Living Library, Dozentin des BWV, engagiert sich im VKII e. V.",
         img:"./partners/audrey.jpg",
-        picture:"photo: private",
+        picture:"MudjackaMvunuku",
         link:"https://www.google.de/maps/place//@51.5053259,7.4496565,17z?entry=ttu",
-        name:"Tina Adomaka"
+        name:"Audrey Nguetchayam"
 
     },
     {

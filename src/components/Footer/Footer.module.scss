@@ -1,6 +1,6 @@
 .Footer {
   // border: 4px solid blue;
-  margin-bottom: 10px;
+  padding-bottom: 20px;
   display: flex;
   margin: 0 auto;
   max-width: 1500px;
@@ -10,6 +10,9 @@
     display: flex;
     justify-content: space-around;
     width: 25%;
+    a {
+      text-decoration: none;
+    }
     @media(max-width:1000px) {
       width: 50%;
     }
