@@ -11,7 +11,7 @@ function Contact() {
       <div className={classes.container}>
         <div className={classes.forms_div}>
           <form onSubmit={handleSubmit}>
-            <h2>Contact</h2>
+            <h2>Contacts</h2>
             <label>
               <span>Email*</span>
               <input type="email" name="email" autocomplete="off"/>
